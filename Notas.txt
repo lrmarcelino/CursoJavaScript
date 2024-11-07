@@ -1,0 +1,99 @@
+Notas:
+Tipo de variaveis
+    - string = "teste"
+    - number = 5 / 8 / 5.5 / 5,21 / -45 / -5,25
+    - boolean = true / false
+    - null
+    - undefined
+    - object
+        - Array
+    - function
+
+Conversões:
+    - Number.parseFloat(n)
+    - Number(n)
+    - string(n)
+    - n.tosting()
+
+Interpolação:
+     - 'Eu estou aprendendo s' // não faz Interpolação
+     - 'Eu estou aprendendo'+s // usa concatenação
+     - 'Eu estou aprendendo ${s} // usa template - usar a ` ex.: `Voce é o ${nome}`
+
+Opções de funções para STRING:
+    - s.lengh //Quantos caracteres a string tem
+    - s.toUpperCase() //Tudo para 'MAIUSCULA'
+    - S.toLowerCase() //Tudo para 'minuscula'
+
+Opções de funções para NUMBER:
+    - n1.toFixed(2) //coloca duas casas decimais
+    - n1.toFixed(2).replace('.' , ',') //convete . em ,
+    - n1.toLocaleString('pt-BR', {style: 'currency, currency:'BRL'}) //R$1,545.50
+    - n1.toLocaleString('pt-BR', {style: 'currency, currency:'USD'}) //US$1,545.50
+    - n1.toLocaleString('pt-BR', {style: 'currency, currency:'USD'}) //€1,545.50
+
+Operadores:
+    - Aritimeticos
+     a
+     i
+     c
+     n
+     e ^  - + - Soma - 5+2=7
+     d |  - - - Subritação - 5-2=3
+     e |  - * - Multiplicação - 5*2=10 
+     c |  - / - Divisão - 5/2=2.5
+     e |  - % - Resto da divisão = 5%2=1
+     r |  - ** - Potencia - 5^2=25
+     P |  - ()
+
+    - Atribuição
+        - n=n+4 => n+=4
+        - n=n-5 => n-=5
+        - n=n*4 => n*=4
+        - n=n/2 => n/=2
+        - n=n**2 => n**=2
+        - n=n%5 => n%=5
+        - x=x+1 => x+=1 +> x++
+        - x=x-1 => x-=1 => x--
+
+    - Relacionais
+       - > - Maior
+        - < - Menor
+        - >= - Maior ou igual
+        - <= - Menor ou igual
+        - == - Igual
+        - === - Identico
+        - != - Diferente
+
+    - Lógicos
+        - ! - Negado
+        - && - E
+        - || - Ou
+
+    - Ternario
+        - teste ? teste : false - Ex.: media >= 7 ? "Aprovado" : "Reprovado"
+
+DOM:
+    - Document object model
+    Arvore:
+        window->history
+            ->location
+            ->document->html->head->meta
+                                    ->title
+                            ->body->h1
+                                    ->p->strong
+                                    ->p
+                                    ->div
+
+    - Selecionando objetos
+        var p1 = window.document.getElementsByTagName('p')[0]
+
+        <div id="msg">Clique em mim</div>
+        var d = window.document.getElementById('msg')
+        d.style.color = 'white'
+        
+- Sistema de video locadora
+    - Tabela de cadastro de cliente
+    - Tela de cadastro de cliente
+    - Tela de consulta de cliente
+    - 
